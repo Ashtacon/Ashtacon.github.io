@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap");
+
+body {
+  font-family: "Montserrat" !important;
+}
+li a {
+  font-family: "Montserrat";
+  font-size: 0.9rem !important;
+  font-weight: 900 !important;
+  color: #fffffe !important;
+  padding-top: 1rem !important;
+  transition: 0.5s ease-out;
+  position: relative;
+  width: 100%;
+}
+
+li a:hover {
+  color: #ff8906 !important;
+}
+
+li a.nav-link.active {
+  color: #ff8906 !important;
+}
+
+/* Hero */
+#hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(img/background.png);
+  background-size: cover;
+  margin-top: -3.9rem;
+}
+
+.text-hero h1 {
+  font-weight: 900 !important;
+  font-size: 5.5rem;
+  color: #fffffe;
+  opacity: 0.75;
+  text-shadow: 1px 2px 4px gray;
+}
+
+.text-hero p {
+  font-size: 1.8rem;
+  font-weight: 900 !important;
+  color: #fffffe;
+  opacity: 0.75;
+  text-shadow: 1px 2px 4px gray;
+}
+
+.btn {
+  opacity: 0.75;
+  box-shadow: 1px 2px 4px gray;
+}
+
+.image-hero {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  filter: opacity(0.35);
+}
+.social-wrapper {
+  gap: 10px;
+}
+
+i {
+  font-size: 1.8rem;
+  opacity: 0.55;
+  color: #fffffe;
+}
+
+i:hover {
+  font-size: 1.8rem;
+  opacity: 1;
+  color: #ff8906;
+}
